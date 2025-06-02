@@ -1,15 +1,32 @@
 [
-    {
-      "lat": 35.6812,
-      "lng": 139.7671,
-      "title": "東京駅",
-      "description": "中央区の主要駅"
-    },
-    {
-      "lat": 35.6895,
-      "lng": 139.6917,
-      "title": "新宿",
-      "description": "副都心エリア"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "サンプル地点1",
+    "lat": 35.681236,
+    "lng": 139.767125,
+    "memo": "東京駅前のポイントです",
+    "tags": ["駅", "観光"],
+    "image_url": "https://example.com/sample1.jpg",
+    "category": "public"
+  },
+  {
+    "id": 2,
+    "title": "サンプル地点2",
+    "lat": 34.702485,
+    "lng": 135.495951,
+    "memo": "大阪駅付近のスポット",
+    "tags": ["駅", "商業施設"],
+    "image_url": "https://example.com/sample2.jpg",
+    "category": "public"
+  },
+  {
+    "id": 3,
+    "title": "非公開地点",
+    "lat": 43.0667,
+    "lng": 141.3508,
+    "memo": "これは非公開のサンプルです",
+    "tags": ["隠れスポット"],
+    "image_url": "",
+    "category": "private"
+  }
+]
