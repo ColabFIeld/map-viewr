@@ -26,7 +26,7 @@
         attribution: "&copy; OpenStreetMap contributors",
       }).addTo(map);
 
-      fetch("./sample.json")
+      fetch("./map_data.json")
         .then((response) => {
           if (!response.ok) {
             throw new Error("ネットワークレスポンスが正しくありません");
@@ -43,9 +43,9 @@
         ? `<img src="${p.image_url}" style="width:100%; border-radius:8px; margin-top:4px;"><br>`
         : ""
     }
-    <small><b>環境：</b>${p.environment || "未設定"}</small><br>
-    <small><b>メモ：</b>${p.memo || ""}</small><br>
-    <small><b>タグ：</b>${p.tags || ""}</small>
+    <small><b>ID：</b>${p.id || "未設定"}</small><br>
+    <small><b>サンプル：</b>${p.environment || ""}</small><br>
+    <small><b>：</b>${p.title || ""}</small>
   </div>
 `);
           });
