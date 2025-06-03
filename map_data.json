@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "2025-06-02T15:00:00.000Z",
-    "environment": "?",
+    "environment": "土",
     "image": "https://drive.google.com/uc?export=view&id=1HulUX5AeEWrv90C0wjgq5vcwoIQfWrLZ",
     "lat": 35.445362,
     "lng": 139.654036,
@@ -17,12 +17,12 @@
   {
     "id": 3,
     "title": "2025-04-27T15:00:00.000Z",
-    "environment": "?????",
+    "environment": "ビオトープ",
     "image": "https://drive.google.com/uc?export=view&id=1peOmussp2YBf4haipwfXEEZY4MKcwZRn",
     "lat": 35.3062704942562,
     "lng": 139.602005938692,
     "memo": [
-      "??????"
+      "サンプル番号"
     ],
     "tags": [
       ""
